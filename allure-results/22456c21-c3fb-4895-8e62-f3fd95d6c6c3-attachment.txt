@@ -1,0 +1,19 @@
+Processing: AD58 VNF
+car mayankBMW 120D M Sport
+Fetched: BMW 120D M Sport
+Processing: BW57 BOF
+car mayankToyota Yaris T2
+Fetched: Toyota Yaris T2
+Processing: SG18 HTN
+car mayankVolkswagen Golf SE Navigation TSI EVO
+Fetched: Volkswagen Golf SE Navigation TSI EVO
+
+EXPECTED DATAFRAME:
+   VARIANT_REG                             MAKE_MODEL  YEAR
+0    SG18 HTN  Volkswagen Golf SE Navigation TSI EVO  2018
+1    AD58 VNF                       BMW 120D M Sport  2008
+2    BW57 BOF                        Toyota Yaris T2  2008
+3    KT17 DLX         Skoda Superb Sportline TDI S-A  2017
+Expected: BMW 120D M Sport, Fetched: BMW 120D M Sport
+Expected: Toyota Yaris T2, Fetched: Toyota Yaris T2
+Expected: Volkswagen Golf SE Navigation TSI EVO, Fetched: Volkswagen Golf SE Navigation TSI EVO
